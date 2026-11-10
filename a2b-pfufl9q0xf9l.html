@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ce que l'IA changera dans nos process">
+<meta property="og:description" content="Rebattre les cartes de la connaissance, l'économie de l'attention, la tokenisation du travail : et après, que fait-on du temps gagné ?">
+<meta property="og:image" content="https://dvp-th30.github.io/articles/img/og-article-2.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://dvp-th30.github.io/articles/a2b-pfufl9q0xf9l.html">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Rebattre les cartes de la connaissance, l'économie de l'attention, la tokenisation du travail : et après, que fait-on du temps gagné ?">
+<title>Ce que l'IA changera dans nos process</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+body{margin:0}
+
+/* Layout: une colonne de lecture de 38em, un bandeau titre pleine largeur, une illustration SVG sobre, chapeau, lettrine, intertitres numérotés comme dans la presse quotidienne. */
+:root{
+  --bg:#fbfaf7;
+  --paper:#ffffff;
+  --fg:#1a1a1a;
+  --muted:#5e5b55;
+  --rule:#d8d5cd;
+  --accent:#8a1c1c;
+  --band:#1f1f1f;
+  --band-fg:#f3f1ec;
+  --display:"Newsreader", "Times New Roman", Times, Georgia, serif;
+  --body:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --ui:"IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15140f;--paper:#1c1b16;--fg:#ebe7df;--muted:#a39f95;--rule:#3a382f;--accent:#d8645c;--band:#0c0c0a;--band-fg:#f0ede6;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15140f;--paper:#1c1b16;--fg:#ebe7df;--muted:#a39f95;--rule:#3a382f;--accent:#d8645c;--band:#0c0c0a;--band-fg:#f0ede6;color-scheme:dark;
+}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:18px;line-height:1.6;margin:0}
+.band{background:var(--band);color:var(--band-fg)}
+.band .in{max-width:48em;margin:0 auto;padding-block:1.4rem;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;font-family:var(--ui);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase}
+.band .in span:last-child{opacity:.7;letter-spacing:.06em;text-transform:none;font-size:.82rem}
+main{max-width:38em;margin:0 auto;padding-block:2.5rem 4rem;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.kicker{font-family:var(--ui);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 .9rem}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(2rem,5.6vw,3rem);line-height:1.08;letter-spacing:-.01em;margin:0 0 1.2rem;text-wrap:balance}
+.chapo{font-family:var(--display);font-size:1.22rem;line-height:1.45;color:var(--muted);margin:0 0 1.4rem;text-wrap:pretty}
+.meta{font-family:var(--ui);font-size:.82rem;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding-block:.6rem;margin:0 0 2rem;display:flex;gap:1rem;flex-wrap:wrap}
+figure{margin:0 0 2.2rem}
+figure img{display:block;width:100%;height:auto;max-width:100%;border:1px solid var(--rule)}
+figcaption{font-family:var(--ui);font-size:.78rem;color:var(--muted);margin-top:.5rem}
+p{margin:0 0 1.15rem;text-wrap:pretty}
+.lede::first-letter{font-family:var(--display);font-size:3.9rem;line-height:.8;float:left;padding:.12em .1em 0 0;color:var(--accent);font-weight:500}
+h2{font-family:var(--display);font-weight:500;font-size:1.75rem;line-height:1.15;margin:2.6rem 0 1rem;text-wrap:balance;display:flex;gap:.7rem;align-items:baseline}
+h2 .n{font-family:var(--ui);font-size:.85rem;color:var(--accent);letter-spacing:.08em;font-weight:600}
+h3{font-family:var(--display);font-weight:600;font-style:italic;font-size:1.2rem;margin:1.9rem 0 .6rem}
+.pull{border-left:3px solid var(--accent);padding-left:1rem;margin:1.8rem 0;font-family:var(--display);font-size:1.3rem;line-height:1.35;color:var(--fg)}
+.sep{width:3rem;height:2px;background:var(--accent);margin:2.6rem 0 1.4rem}
+.next{font-family:var(--display);font-style:italic;color:var(--muted)}
+em{font-style:italic}
+@media (max-width:480px){body{font-size:17px}h2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<p class="kicker">Intelligence artificielle · version B</p>
+<h1>Ce que l'IA changera dans nos process</h1>
+<div class="meta"><span>Par Théo Dupont</span><span>Novembre 2026</span><span>Lecture : 7 min</span></div>
+
+<figure>
+<img src="img/article-2.jpg" alt="Illustration : dans un bureau de chantier, un ouvrier examine à la loupe une feuille tendue par un petit robot, pendant que trois autres robots attendent leur tour avec leurs feuilles">
+</figure>
+
+<p class="lede">Pour le moment, l'IA est surtout l'occasion de tartiner des posts LinkedIn. Dans l'entreprise, elle est encore un nouveau gadget utilisé par certains. Je suis cependant déjà convaincu du potentiel qu'elle offre, et donc des modifications qu'elle va provoquer dans nos organisations. Dans cet article, j'ai essayé d'imaginer ce nouveau décor.</p>
+
+<h2><span class="n">1</span><span>Rebattre les cartes de la connaissance</span></h2>
+
+<p>L'invention de l'écriture, l'imprimerie, l'école publique : chacune de ces grandes ruptures a rebattu les cartes de qui peut accéder à l'information. L'IA générative est dans la continuité de ce que l'homme a mis des siècles à construire : un accès universel à la connaissance, à toute heure et en tout lieu.</p>
+
+<p>Qu'est-ce qu'un projet trop complexe, qu'est-ce qu'un business trop pointu, pour celui qui se fera coacher étape par étape ? Dans une société où tout le monde a accès à l'IA, on peut donc s'attendre à ce que le niveau global des salariés augmente. La barrière à l'entrée ne sera plus la complexité, mais la pugnacité. Dès à présent, le facteur de réussite n'est ni le diplôme ni la catégorie sociale mais bien l'appétit d'apprendre et de faire. Heureux les curieux du XXI<sup>e</sup> siècle, ils n'ont pas fini de prompter.</p>
+
+<h2><span class="n">2</span><span>L'économie de l'attention</span></h2>
+
+<p>Quitter son poste à 18 h en lançant cinq agents sur trois projets différents, et revenir le matin pour contrôler, débloquer ou valider le travail réalisé : voilà ce qui est déjà en cours. Ainsi, nos métiers ne consisteront plus à faire, mais à contrôler.</p>
+
+<p>Une matinée ordinaire : un agent produit un brouillon de mémoire pendant qu'un autre cherche les points sensibles d'un dossier, et qu'un troisième a pour mission de trouver dix contacts d'entreprises ayant des références spécifiques. Deux choses changent. D'abord on parallélise là où on les enchaînait. Ensuite, on ne travaille plus seul. On expose son raisonnement à un tiers qui répond, objecte, propose une autre piste. On se challenge soi-même en discutant. Un chiffrage qu'on aurait réalisé dans son coin passe désormais par la moulinette de l'échange. À volume horaire constant, on fait davantage en une journée : j'en fais l'expérience chaque jour, l'IA nous rend plus productifs.</p>
+
+<p>Un architecte ne passera plus ses journées sur un formulaire de permis de construire ou une énième notice descriptive. Ce temps retournera à ce pour quoi il a été formé : choisir des matériaux, comprendre leur mise en œuvre, dessiner. Aux études, on ne passera plus une demi-journée à lister les écarts entre deux versions de DCE. On la passera sur nos modes opératoires de construction ou l'élaboration de variantes techniques. Un canal invisible pour l'homme, d'agent à agent, gèrera tout ce flux. Cette délégation de tâches aura une conséquence pour les travailleurs : on oublie le superflu, et on revient à l'essence même de nos métiers. L'ère des tâches administratives et des formulaires à outrance est déjà derrière nous.</p>
+
+<p class="pull">Nos métiers ne consisteront plus à faire, mais à contrôler.</p>
+
+<p>Il nous restera alors deux rôles. Le premier est noble : produire le travail à haute valeur ajoutée, celui qu'on vient de décrire. Le second l'est moins : faire le sale boulot de contrôler les agents, non parce que c'est intéressant, mais parce que le travail agentique nous y oblige. Il faudra notamment nettoyer le fameux « AI slop », ce vomi de belles phrases, lisses et tièdes, qu'un modèle régurgite à partir de la moyenne de tout ce qu'il a lu, et ne pas se laisser tenter par la rondeur de la phrase sans accident.</p>
+
+<p>Or relire n'est pas produire. Produire relève d'un mode presque automatique, où le cerveau est actif. Vérifier exige un mode sceptique, attentif, qu'on ne tient pas huit heures de suite. Une journée partagée entre ces deux pôles, sans plus aucune tâche simple pour souffler entre les deux, pourrait peser sur la qualité de vie au travail.</p>
+
+<h2><span class="n">3</span><span>La tokenisation du travail</span></h2>
+
+<p>Le patron de Mistral estime que le coût en tokens pour une entreprise serait de l'ordre de 10 % de la masse salariale. On peut se méfier de ce chiffre au vu de l'intérêt de celui qui l'a prononcé. Il est néanmoins évident que les entreprises devront, dans les prochains mois, provisionner des lignes comptables pour ce type de dépenses. Et une ligne budgétaire, ça se suit. On le voit déjà, dans certaines entreprises, la consommation de tokens est devenue un moyen d'évaluer la productivité, voire, pire, un moyen de contrôle au quotidien.</p>
+
+<p>Le token n'est pourtant pas la seule spécificité cachée du déploiement. Une IA est un algorithme probabiliste : la qualité de ses réponses dépend directement du contexte qu'on lui fournit. Les entreprises devront donc organiser un « contexte global », partagé par les agents de tous les salariés : nos règles, nos documents, nos façons de faire. Puis, en dessous, une couche de contexte propre à chaque salarié, pour que son agent travaille au plus près de ses habitudes. Ce qui, au passage, amène la question de qui est propriétaire de ce contexte individualisé, construit tout au long de notre carrière. Tout cela se construit, en plus des nouvelles approches de management inévitables. Pour un groupe établi, c'est un chantier.</p>
+
+<p>Les entreprises qui se lancent aujourd'hui, les « AI natives », n'ont pas ce chantier devant elles. Leurs process sont nés avec l'IA, leur contexte est en place dès le premier jour, et leurs architectures sont ultra efficaces sur ce plan. Cela leur donne une vélocité certaine et leur permettra, à taille plus limitée, d'empiéter sur les marchés de plus grandes entreprises.</p>
+
+<div class="sep"></div>
+
+<h2><span>Produire plus, et après ?</span></h2>
+
+<p>Si je résume le décor : l'accès à la connaissance s'ouvre à tous et le niveau monte. Nos métiers se recentrent sur l'essentiel, au prix d'une attention qu'il faudra préserver. Le token devient une ligne de coût. Les entreprises nées avec l'IA n'auront pas à payer la transition que nous avons devant nous. Tout cela converge vers un même point : nous produirons plus, avec moins de monde ou en moins de temps.</p>
+
+<p>L'une des questions que les dirigeants auront à se poser est donc la suivante : si les salariés produisent davantage, faut-il choisir une augmentation de la production globale de l'entreprise, quitte à diminuer le bien-être au travail, ou rester à un niveau de production constant et accepter de dégager davantage de temps pour les salariés ?</p>
+
+<p class="next">Dans un prochain article, nous verrons plus concrètement comment les salariés verront leur environnement de travail évoluer.</p>
+<p class="next"><a href="index.html" style="color:var(--accent)">← Tous les articles</a></p>
+</main>
+</body>
+</html>
